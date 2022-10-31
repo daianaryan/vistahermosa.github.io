@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+    <title>Vista Hermosa</title>
+    <link rel="stylesheet" href="style.css">        
+    <script src="https://kit.fontawesome.com/539bd365de.js" crossorigin="anonymous"></script>
+</head>
+<body>    
+
+    <header>
+        <!-- NAVEGADOR -->    
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><i class="fa-solid fa-bars"></i>Menu</a>
+        </div>            
+        <nav class="container fixed-top">            
+            <ul>
+                <li><a href="index.html"><i class="fa-sharp fa-solid fa-house"></i> Inicio</a></li>
+                <li><a href="informacion.html"><i class="fa-solid fa-circle-info"></i> Información</a></li>
+                <li><a href="index.html"><img src="img/logo4.png" class="logo" alt="logo"></a></li>
+                <li><a href="noticias.html"><i class="fa-solid fa-newspaper"></i> Noticias</a></li>
+                <li><a href="contacto.html"><i class="fa-solid fa-person"></i> Contacto</a></li>
+            </ul>                            
+        </nav>                                     
+    </header>               
+
+    <!-- PRESENTACIÓN -->
+    <main class="divFondo">
+        <div id="fondoCien" class="fondoImg">  
+            <div class="boxPresentacion">                                                         
+                <div class="info">                      
+                    <h1><i>VISTA HERMOSA</i></h1>                                
+                    <p><i> Gestionamos las áreas protegidas más importantes del país como espacios de conservación natural y cultural, investigación, turismo sostenible y desarrollo local.</i></p>                           
+                </div>   
+            </div>                 
+        </div>
+    </main> 	    
+
+    <div class="divContenedor">                     
+        <!-- INTRODUCCIÓN: PARQUE NACIONAL-->          
+        <section class="card-blog">
+            <div class="card-inner">                    
+                <div class="card-Text">
+                    <div class="introNoticias">
+                        <p><b>El Parque  Nacional</b></p><br>
+                    </div>                          
+                    <p>Es un espacio natural de alto valor natural y cultural, poco alterado por la actividad humana que, en razón de sus excepcionales valores naturales, de su carácter representativo, la singularidad de su flora, de su fauna o de sus formaciones geomorfológicas, merece su conservación una atención preferente y se declara de interés general de la Nación por ser representativo del patrimonio natural español. Para que un territorio sea declarado Parque Nacional debe ser representativo de su sistema natural, tener una superficie amplia y suficiente para permitir la evolución natural y los procesos ecológicos, predominar ampliamente las condiciones de naturalidad, presentar escasa intervención sobre sus valores naturales, continuidad territorial, no tener genéricamente núcleos habitados en su interior, y estar rodeado por un territorio susceptible de ser declarado como zona periférica de protección.</p>
+                    <br><br><hr class="introHr"><br><br>
+                </div>
+                <img class="imgBlog" src="img/parque4.gif" alt="parque4">
+            </div>
+        </section>
+        <br><br>
+
+        <!-- CARDS -->
+        <section>                
+            <div class="introNoticias">
+                <p><b>EMPIEZA TU AVENTURA</b></p><br><br>
+            </div>            
+            <div class="contenedor-flip">  
+                <div class="flip">
+                    <div class="flip-info">
+                        <div id="fondoCard" class="fondoImg">                                                                               
+                            <a href="informacion.html"><i><b>SABER</b></i></a>                                               
+                        </div>
+                    </div>
+                </div>              
+                <div class="flip">                    
+                    <div class="flip-info">
+                        <div id="fondoCard" class="fondoImg">                                                                               
+                            <a href="informacion.html"><i><b>ACTIVIDADES</b></i></a>                                               
+                        </div>
+                    </div>
+                </div>                                 
+                <div class="flip">
+                    <div class="flip-info">
+                        <div id="fondoCard" class="fondoImg">                                                                               
+                            <a href="#comoLlego"><i><b>COMO LLEGAR</b></i></a>                                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>   
+        <br><br>
+        
+        <!-- BLOG -->
+        <section>
+            <div class="introNoticias">
+                <p><b>DÉJATE SORPRENDER <br></b></p>
+                <p><b><small>No te lo puedes perder</small></b></p>
+            </div>
+            <div class="card-blog">
+                <div class="card-inner">
+                    <img class="imgBlog" src="img/newpaper3.jpg" alt="newpaper3">
+                    <div class="introNoticias card-Text">
+                        <h2><b>NATURALEZA SIN BARRERAS</b></h2> <br>
+                        <p>Colores, sonidos,aromas... tus sentidos se aguadizan, tus emociones se exaltan. Puedes conocer todos los atractivos y cada rincón del parque.</p> 
+                        <a class="btn" href="informacion.html">+ Info</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br><br>
+
+        <!-- NOTICIAS -->
+        <section>
+            <div class="introNoticias">
+                <p><b>NOTICIAS <br></b></p>
+                <p><b><small>Lo que tenes que saber...</small></b></p>
+            </div>  
+            <!-- GRID -->            
+            <div class="cards-grid">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Vivi de la Naturaleza en el Palmar</h3>
+                            <img src="img/parque.jfif" alt="cardImg">    
+                        </div>
+                        <div class="flip-card-back">
+                            <h5><b>Vivir la naturaleza en el Parque Nacional ahora es posible para todos los visitantes</b></h5> <br>   
+                            <p><small>El Parque Nacional patrimonio natural de la Humanidad, reabre sus puertas a todos los visitantes. <br> La visita será...</small></p> <br>                            
+                            <a class="btn" href="noticias.html"><small>+ Info</small></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Disfrutar de otro fin de semana </h3>
+                            <img src="img/parque2.jfif" alt="cardImg">    
+                        </div>
+                        <div class="flip-card-back">
+                            <h5><b>Los Misioneros disfrutan de otro fin de semana emocionante en el parque </b></h5><br>    
+                            <p><small>Si bien el Parque Nacional Iguazú cerró temporariamente sus puertas a visitantes de todo el mundo, actualmente es el escenario de visitas ...</small></p><br>
+                            <p class="btn"><small>+ Info</small></p>    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>El Parque Nacional abre sus puertas </h3>
+                            <img src="img/parque3.jfif" alt="cardImg">    
+                        </div>
+                        <div class="flip-card-back">
+                            <h5><b>El Parque Nacional abre sus puertas a residentes</b></h5><br>    
+                        <p><small>Al agregar un titulo tengo que agregar mas texto abajo porque sino queda muy vacio porque nadie sabe que vamos hacer pero estamso encaminados.</small></p><br>
+                        <p class="btn"><small>+ Info</small></p>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>   
+
+        <!-- COMO LLEGO -->
+        <section id="comoLlego">
+            <div class="card-blog">
+                <div class="card-inner">                    
+                    <div class="card-Text">
+                        <div class="introNoticias">
+                            <h2><b>Como Llego?</b></h2> <br>                            
+                        </div>                          
+                        <p><strong>En auto:</strong><br>
+                            Desde Buenos Aires, por Complejo Zárate-Brazo Largo, RN 12 y RN 14 hasta el portal de entrada al Parque (365 km). <br>
+                            Desde Santa Fe-Paraná, por RN 18 hasta Concordia y luego RN 14 (315 km). <br>
+                            Desde Rosario, por Viaducto Rosario-Victoria, RP 26, RP 39 y RN 14 (320 km). <br>
+                            Entre la portada y el Área Recreativa hay 12 km de ripio. <br>
+                            <br>
+                            <strong>Otros medios de transporte</strong><br>
+                            La localidad de Ubajay, a 6 km, recibe ómnibus de Buenos Aires, Corrientes y Posadas. <br>
+                            Desde allí se puede visitar El Palmar en remise o radio-taxi. Algunos ómnibus paran a la entrada del área protegida, aunque no recogen pasajeros. <br>
+                        </p>
+                        <br>
+                        <a class="btn" href="informacion.html">+ Info</a>
+                        <br><br><hr class="introHr"><br><br>
+                    </div>                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10183.373651476733!2d-58.25909!3d-31.86378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3a513efd67ddd707!2sParque%20Nacional%20El%20Palmar!5e1!3m2!1ses!2sar!4v1667108409502!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    
+                </div>
+            </div> 
+            <br>
+        </section>        
+    </div>        
+    <br>    
+
+    <!-- FOOTER -->
+    <footer>        
+        <div class="contenedorFooter">            
+            <!-- LOGO -->            
+            <a href="index.html"><img src="img/logo4.png" class="logo logoFooter" alt="logo"></a>                        
+            <!-- BOTON -->
+            <div class="menu_bar"><a href="#" class="bt-menu"><i class="fa-solid fa-bars"></i></a></div>            
+            <!--MENÚ-->   
+            <div class="contenedorMenu">                                                                 
+                <nav>                        
+                    <ul>
+                        <li><a class="titleNav">MENÚ</a></li>
+                        <li><a href="index.html"><i class="fa-sharp fa-solid fa-house"></i> Inicio</a></li>
+                        <li><a href="informacion.html"><i class="fa-solid fa-circle-info"></i> Información</a></li>                                
+                        <li><a href="noticias.html"><i class="fa-solid fa-newspaper"></i> Noticias</a></li>
+                        <li><a href="contacto.html"><i class="fa-solid fa-address-card"></i> Contacto</a></li>
+                    </ul>                                            
+                </nav>                                                     
+                <!--NAVEGACIÓN-->
+                <nav>
+                    <ul>
+                        <li><a class="titleNav">NAVEGACIÓN</a></li>
+                        <li><a href="#"><i class="fa-solid fa-circle-question"></i> Preguntas frecuentes</a></li>
+                        <li><a href="#"><i class="fa-solid fa-circle-info"></i> Más Navegación</a></li>                                
+                        <li><a href="#"><i class="fa-solid fa-newspaper"></i> Más Navegación</a></li>                                
+                    </ul>                             
+                </nav>
+                <!--REDES-->
+                <nav>
+                    <ul>                        
+                        <li><a class="titleNav">REDES</a></li>                        
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>                                
+                        <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                    </ul>                              
+                </nav>
+                <!--UBICACIÓN-->
+                <nav>
+                    <ul>
+                        <li><a class="titleNav">UBICACIÓN</a></li>                               
+                        <li><a class="titleNav mapNav">Av. 9 de Julio 100, CABA</a></li>                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9869.146892199957!2d-58.38211700000001!3d-34.603802!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacf425a4a19%3A0xaf19ab7297421a8!2sAv.%209%20de%20Julio%20%26%20Av.%20Corrientes%2C%20C1048%20CABA!5e1!3m2!1ses-419!2sar!4v1663284183638!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        
+                    </ul>
+                </nav>
+            </div>                
+        </div>                    
+    </footer>
+    
+    
+    <!-- SCRIPT -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="menu.js"></script>
+    
+</body>
+</html>
